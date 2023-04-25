@@ -56,7 +56,15 @@ api = Api(token=YOUR_TOKEN)
 note_body = api.get_note(id_="note_id",field="body")
 ```
 
+`fields` 参数指定获取的信息，可以设置多个信息例如"id,title,body"获取id、标题、正文
+
 ## 实践案例
+
+### 批量更新笔记内容
+
+批量更新指定 Joplin 笔记本中所有笔记的内容。
+
+[ModifyNotes.py](Tools/ModifyNotes.py)
 
 ### 为笔记添加标签
 
