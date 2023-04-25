@@ -33,6 +33,16 @@ api = Api(token=YOUR_TOKEN)
 notes = api.get_all_notes()
 ```
 
+### 获取某笔记本下所有笔记
+
+```
+from joppy.api import Api
+
+api = Api(token=YOUR_TOKEN)
+
+notes = api.get_notes(notebook_id=notebookId)
+```
+
 ### 获取笔记正文
 
 
