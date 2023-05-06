@@ -78,3 +78,27 @@ note_body = api.get_note(id_="note_id",field="body")
 ### 移除孤立资源
 
 [DeleteUnreferencedResources.py](Tools/DeleteUnreferencedResources.py)
+
+### 批量将笔记转为PDF
+
+得到路径信息:[GetFolderInfo.py](https://github.com/cestbonsuliu/Joplin-Python-Tools/blob/cd7c0c6fbc7d914968334a0a5aa54620148ff3c1/Tools/GetFolderInfo.py)
+
+笔记PDF的最终路径:[BuildNotePDFMap.py](https://github.com/cestbonsuliu/Joplin-Python-Tools/blob/cd7c0c6fbc7d914968334a0a5aa54620148ff3c1/Tools/BuildNotePDFMap.py)
+
+将笔记转为PDF:[NoteToPDF.py](https://github.com/cestbonsuliu/Joplin-Python-Tools/blob/cd7c0c6fbc7d914968334a0a5aa54620148ff3c1/Tools/NoteToPDF.py)
+
+映射文件的的写入和读取:[DumpAndLoad.py](https://github.com/cestbonsuliu/Joplin-Python-Tools/blob/cd7c0c6fbc7d914968334a0a5aa54620148ff3c1/Tools/DumpAndLoad.py)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
