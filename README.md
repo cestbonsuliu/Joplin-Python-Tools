@@ -90,6 +90,10 @@ note_body = api.get_note(id_="note_id",field="body")
 映射文件的的写入和读取:[DumpAndLoad.py](https://github.com/cestbonsuliu/Joplin-Python-Tools/blob/cd7c0c6fbc7d914968334a0a5aa54620148ff3c1/Tools/DumpAndLoad.py)
 
 
+### 更新记录单词背诵情况
+
+[WordNoteUpdater.py](https://github.com/cestbonsuliu/Joplin-Python-Tools/blob/cd7c0c6fbc7d914968334a0a5aa54620148ff3c1/Tools/WordNoteUpdater.py)
+
 
 
 
